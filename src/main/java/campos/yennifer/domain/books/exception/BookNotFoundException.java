@@ -1,0 +1,8 @@
+package campos.yennifer.domain.books.exception;
+
+public class BookNotFoundException extends Exception{
+
+    public BookNotFoundException (String msg){
+        super (msg);
+    }
+}
